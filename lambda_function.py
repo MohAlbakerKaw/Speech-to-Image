@@ -36,7 +36,7 @@ def lambda_handler(event, context):
         
         upload_file(
             file_name=img_path, 
-            bucket='s3-interns-bucket', 
+            bucket='', # enter the s3 bucket name 
             object_name='result/' + img_name
             )
             
